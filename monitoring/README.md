@@ -24,9 +24,9 @@ The following details makes the following assumptions.
 
 ## Quick Setup
 
-Clone the repository if you have not cloned it already:
+Clone the repository here [mnforba](https://github.com/mnforba/terraform-Projects.git) if you have not cloned it already:
 
-    git clone https://github.com/Skanyi/terraform-projects.git
+    git clone https://github.com/mnforba/terraform-Projects.git
 
 Change directory;
 
@@ -36,7 +36,7 @@ Update the `backend.tf` and update the s3 bucket and the region of your s3 bucke
 
 Update the `variables.tf` profile variable if you are not using the default profile. 
 
-Update the `secret.tfvars` file with the output values of the [Setting up EKS Cluster with Terraform, Helm and a Load balancer](https://github.com/Skanyi/terraform-projects/tree/main/eks) module. 
+Update the `secret.tfvars` file with the output values of the [Setting up EKS Cluster with Terraform, Helm and a Load balancer](https://github.com/mnforba/terraform-Projects/tree/main/eks) module. 
 
 Format the the project
 
@@ -80,7 +80,7 @@ Note the variable "[var.sso_admin_group_id]". Make sure you have updated the `se
     source = "terraform-aws-modules/managed-service-grafana/aws"
 
     providers = {
-        aws = aws.us-east-2
+        aws = aws.us-east-1
     }
 
     # Workspace
@@ -147,7 +147,7 @@ Note the variable "[var.sso_admin_group_id]". Make sure you have updated the `se
 
 ### Deploy AWS Managed Service for Prometheus (AMP) 
 
-Prometheus requires Amazon EBC CSI driver to be installed in your cluster. This driver allows your cluster to manage the lifecycle of Amazon EBS volumes for persistent volumes. Update the [Setting up EKS Cluster with Terraform, Helm and a Load balancer](https://github.com/Skanyi/terraform-projects/tree/main/eks) and add the Amazon EBS volume addon. Also add AmazonEBSCSIDriverPolicy to the NodeGroups.  
+Prometheus requires Amazon EBC CSI driver to be installed in your cluster. This driver allows your cluster to manage the lifecycle of Amazon EBS volumes for persistent volumes. Update the [Setting up EKS Cluster with Terraform, Helm and a Load balancer](https://github.com/mnforba/terraform-Projects/tree/main/eks) and add the Amazon EBS volume addon. Also add AmazonEBSCSIDriverPolicy to the NodeGroups.  
 
     ```
     cluster_addons = {
@@ -175,7 +175,7 @@ Prometheus requires Amazon EBC CSI driver to be installed in your cluster. This 
     create_workspace = true
 
     providers = {
-        aws = aws.us-east-2
+        aws = aws.us-east-1
     }
 
     alert_manager_definition = <<-EOT
@@ -293,7 +293,7 @@ Prometheus requires Amazon EBC CSI driver to be installed in your cluster. This 
 
     set {
         name  = "server.remoteWrite[0].sigv4.region"
-        value = var.main-region
+        value = var.region
     }
 
     }

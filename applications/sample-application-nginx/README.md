@@ -22,13 +22,13 @@ The following details makes the following assumptions.
 
     You have created s3 bucket that will act as the backend of the project. 
 
-You have setup the EKS cluster as described in this project [Setting up EKS Cluster with Terraform, Helm and a Load balancer](https://github.com/Skanyi/terraform-projects/tree/main/eks)
+You have setup the EKS cluster as described in this project [Setting up EKS Cluster with Terraform, Helm and a Load balancer](https://github.com/mnforba/terraform-Projects/tree/main/eks)
 
 ## Quick Setup
 
-Clone the repository:
+Clone the repository here [mnforba](https://github.com/mnforba/terraform-Projects.git):
 
-    git clone https://github.com/Skanyi/terraform-projects.git
+    git clone https://github.com/mnforba/terraform-Projects.git
 
 Change directory;
 

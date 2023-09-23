@@ -24,9 +24,9 @@ The following details makes the following assumptions.
 
 ## Quick Setup
 
-Clone the repository:
+Clone the repository here [mnforba](https://github.com/mnforba/terraform-Projects.git):
 
-    git clone https://github.com/Skanyi/terraform-projects.git
+    git clone https://github.com/mnforba/terraform-Projects.git
 
 Change directory;
 
@@ -284,7 +284,7 @@ The above method is just one of the method that can be used to create the EKS cl
 
 The following project deploys a sample nginx application and create a load balancer that can be used to access the application. 
 
-[Deploy sample application and create a Load Balancer Using Terraform to EKS Cluster](https://github.com/Skanyi/terraform-projects/tree/main/applications/sample-application-nginx)
+[Deploy sample application and create a Load Balancer Using Terraform to EKS Cluster](https://github.com/mnforba/terraform-Projects/tree/main/applications/sample-application-nginx)
 
 Throughout the following setup, I referenced heavily from the following sources. 
 
