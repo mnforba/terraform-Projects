@@ -3,11 +3,11 @@
 The following Github repository stores all my Terraform projects. 
 
 Projects:
-1. [Setting up EKS Cluster with Terraform, Helm and a Load balancer](https://github.com/Skanyi/terraform-projects/tree/main/eks)
+1. [Setting up EKS Cluster with Terraform, Helm and a Load balancer](https://github.com/mnforba/terraform-Projects/tree/main/eks)
 
-2. [Deploy sample application Using Terraform to EKS Cluster Created in project 1](https://github.com/Skanyi/terraform-projects/tree/main/applications/sample-application-nginx)
+2. [Deploy sample application Using Terraform to EKS Cluster Created in project 1](https://github.com/mnforba/terraform-Projects/tree/main/applications/sample-application-nginx)
 
-3. [Deploy AWS Managed Prometheus (AMP) and AWS Managed Grafana (AMG) With Terraform for scalable observibility on EKS Cluster Created in Project 1](https://github.com/Skanyi/terraform-projects/tree/main/monitoring) 
+3. [Deploy AWS Managed Prometheus (AMP) and AWS Managed Grafana (AMG) With Terraform for scalable observibility on EKS Cluster Created in Project 1](https://github.com/mnforba/terraform-Projects/tree/main/monitoring) 
 
 
 ### Add monitoring to the EKS Cluster
