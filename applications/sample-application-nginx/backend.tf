@@ -4,6 +4,6 @@ terraform {
     region  = "us-east-1"
     profile = ""
     key     = "vprof"
-    bucket  = "mnforba-terraform"
+    bucket  = "mnforba-terraform-project"
   }
 }
