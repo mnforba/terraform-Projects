@@ -71,9 +71,9 @@ module "eks" {
 #     },
 #   ]
 
-#   tags = {
-#     env       = "dev"
-#     terraform = "true"
-#   }
+  tags = {
+    env       = "dev"
+    terraform = "true"
+  }
 }
 
